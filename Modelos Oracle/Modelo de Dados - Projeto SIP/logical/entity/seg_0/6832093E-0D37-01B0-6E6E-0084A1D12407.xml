@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6832093E-0D37-01B0-6E6E-0084A1D12407" name="T_SIP_DEPARTAMENTO">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-21 21:59:56 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_depto" id="1BA76877-140D-3DC1-8265-814DE49DF333">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-21 22:00:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único da entidade departamento]]></commentInRDBMS>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_depto" id="9A42F5E3-C7CE-91BD-B7C2-C8E45216A2F6">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-21 22:00:52 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_depto" id="6B1314AC-561E-3F28-FF51-7983E0AB0AEB">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-21 22:01:05 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78FC1472-C763-8422-AF78-C18636BDEC3A" name="T_SIP_DEPARTAMENTO PK">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-21 22:00:40 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BA76877-140D-3DC1-8265-814DE49DF333</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
