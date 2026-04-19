@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="implantar" directorySegmentName="seg_0" id="45E4687E-C78E-95C9-CAAE-DB55E30B1C70">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-23 00:40:30 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<sourcePk>8444F8DC-4AE9-760D-C31A-A9171B3B4379</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9BB9A3EB-3E46-EA47-EC21-D8DC929CFFAE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>567A4EAF-5A35-26E9-BE6C-F5212DA399B0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

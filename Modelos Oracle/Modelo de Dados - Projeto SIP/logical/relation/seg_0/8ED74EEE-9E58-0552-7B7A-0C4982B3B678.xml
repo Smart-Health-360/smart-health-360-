@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="alocar" directorySegmentName="seg_0" id="8ED74EEE-9E58-0552-7B7A-0C4982B3B678">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-23 00:23:32 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<sourcePk>78FC1472-C763-8422-AF78-C18636BDEC3A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6832093E-0D37-01B0-6E6E-0084A1D12407</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8BCCFBDA-FB4D-DCDB-22CD-6A43145C3B56</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

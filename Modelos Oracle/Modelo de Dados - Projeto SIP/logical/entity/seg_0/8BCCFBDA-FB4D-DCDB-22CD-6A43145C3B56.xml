@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BCCFBDA-FB4D-DCDB-22CD-6A43145C3B56" name="T_SIP_FUNCIONARIO">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-23 00:19:54 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="80F0E773-7FD9-A344-1ABE-A06ACDB52031">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-23 00:20:13 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_depto" id="23485162-7903-CDB3-DB21-FA4E03CCEA2A">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-23 00:23:32 UTC</createdTime>
+<generatorID>8ED74EEE-9E58-0552-7B7A-0C4982B3B678</generatorID>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<referedAttribute>1BA76877-140D-3DC1-8265-814DE49DF333</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="26BD5C7A-EBA4-F7EB-41ED-4CF10FE67096">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-23 00:20:33 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="7CE621D1-1BD9-2A0D-CE9B-102A966FD497">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-23 00:20:49 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="732A4686-3C2A-3D3A-78C2-847CE7602F72">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-23 00:20:57 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="469F81BB-8267-61DC-684C-FA5EF1AE0C17">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-23 00:21:04 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario_mensal" id="E919F622-FACC-97BB-3B8F-495DC67A1C97">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-23 00:21:12 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6C8A603-E17D-2BB1-BA42-5C4E7445DB30" name="T_SIP_FUNCIONARIO PK">
+<createdBy>foxgh</createdBy>
+<createdTime>2024-08-23 00:20:31 UTC</createdTime>
+<ownerDesignName>Modelo de Dados - Projeto SIP</ownerDesignName>
+<engineerTo>
+<item key="4EAC2E13-6A0C-3259-E036-654456BB5E4E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80F0E773-7FD9-A344-1ABE-A06ACDB52031</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
